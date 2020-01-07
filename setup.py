@@ -7,8 +7,8 @@ import re
 from setuptools import setup, find_packages
 
 # check minimum supported Python version
-if sys.version_info[:2] < (3, 7):
-    raise Exception("Python 3.7 or higher is required.")
+if sys.version_info[:2] < (3, 6):
+    raise Exception("Python 3.6 or higher is required.")
 
 requires = [
 	"requests",
