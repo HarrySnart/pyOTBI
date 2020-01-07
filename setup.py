@@ -7,6 +7,8 @@ import re
 from setuptools import setup, find_packages
 import sys
 
+import pyOTBI
+
 # check minimum supported Python version
 if sys.version_info[:2] < (3, 6):
     raise Exception("Python 3.6 or higher is required.")
@@ -27,13 +29,12 @@ setup(
     description="Simple Python library to connect to Fusion OTBI",
     author="Harry Snart",
     author_email="harry.snart@oracle.com",
-    packages=['pyOTBI'],
+    py_modules=['pyOTBI'],
     install_requires=requires,
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: beta",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: Apache Software License",
-        "License :: OSI Approved :: Universal Permissive License (UPL)",
+		"Topic :: Oracle BI :: OTBI :: Analytics",
         "Programming Language :: Python :: 3.7",
     ]
 )
