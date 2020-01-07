@@ -17,10 +17,7 @@ requires = [
 	"requests",
 	"bs4",
 	"pandas",
-	"base64",
-	"io",
-	"xmltodict",
-	"re"
+	"xmltodict"
 ]
 
 setup(
