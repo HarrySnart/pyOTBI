@@ -7,7 +7,7 @@ import re
 from setuptools import setup, find_packages
 import sys
 
-import pyOTBI
+#import pyOTBI
 
 # check minimum supported Python version
 if sys.version_info[:2] < (3, 6):
