@@ -345,7 +345,7 @@ class connect:
             <v10:presentationInfo></v10:presentationInfo>
             <v10:type></v10:type>
          </v10:executionOptions>
-         <v10:sessionID>1be56eavgt9p3atu7727ufnoc4npofp39imd6bfeatjfbi70</v10:sessionID>
+         <v10:sessionID>'''+sessionid+'''</v10:sessionID>
       </v10:executeSQLQuery>
    </soapenv:Body>
 </soapenv:Envelope>'''
