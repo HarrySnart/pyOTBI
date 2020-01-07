@@ -10,7 +10,7 @@ The native SOAP APIs can be difficult to use to run queries against OTBI, howeve
 
 # How to install pyOTBI?
 You can install pyOTBI from github using Python’s pip library.
-python –m pip install git+https://github.com/HarrySnart/pyOTBI
+```python –m pip install git+https://github.com/HarrySnart/pyOTBI```
 
 # Code examples
 ```python
